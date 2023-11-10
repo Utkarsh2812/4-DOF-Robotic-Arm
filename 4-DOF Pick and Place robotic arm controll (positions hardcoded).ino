@@ -16,7 +16,7 @@ int pos;
 void setup() 
 {
   Serial.begin(9600);  // Initialize serial communication
-  Serial.println("Enter the servo index (0-5) and pulse, separated by a space, and press Enter:");
+  Serial.println("Enter the servo index (0-3) and pulse, separated by a space, and press Enter:");
   robot_arm.begin();
   robot_arm.setPWMFreq(60);
   //200-350 180= open 350= close (gripper)
